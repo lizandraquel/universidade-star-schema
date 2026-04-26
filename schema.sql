@@ -1,7 +1,7 @@
 create database universidade;
 use universidade;
 
--- tabelas dimensão
+
 create table Professor (
     idprofessor int primary key,
     nome varchar(100),
@@ -41,7 +41,7 @@ create table Data (
     dia_semana varchar(20)
 );
 
--- tabela fato
+
 create table FatoProfessor (
     idFato int primary key,
     idProfessor int,
